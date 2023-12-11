@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+  <title>flex</title>
+  <style>
+
+
+.icon-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.icon {
+  text-align: left;
+}
+
+.icon img {
+  width: 350px; 
+  height: 580px; 
+}
+
+.sidebar {
+  color: white;
+  width: 100px;
+  height: 170px;
+  background-color: #333;
+  float: left; 
+}
+
+header, footer {
+  background-color: #333;
+  color : white;
+  text-align: center;
+  padding: 10px ;
+}
+
+.table {
+  display: table;
+  border-collapse: collapse;
+}
+
+.row {
+  display: table-row;
+
+}
+.row1 ,.cell1{
+  background-color: yellow;
+}
+.cell {
+  display: table-cell;
+  border: 1px solid black;
+  width: 150px;
+  height: 30px;
+  text-align: center;
+  
+}
+.cell2 ,.cell5 ,.cell8{
+  width: 300px;
+}
+
+
+
+  </style>
+</head>
+<body>
+  <div class="sidebar">
+    <ul>
+      <div>sidebar</div>
+    
+    </ul>
+  </div>
+  <header>
+    
+    <p>header</p>
+  </header>
+
+  <div class="icon-container">
+    <div class="icon">
+      <div>Section 1</div>
+      <img src="F0182157-Laptop_computer.jpg" alt="Icon 1">
+     
+    </div>
+    <div class="icon">
+    <div ><h3>Section 2</h3></div>
+      
+    <div class="table">
+      <div class="row row1">
+        <div class="cell cell1">ID</div>
+        <div class="cell cell2">Name</div>
+        <div class="cell ">Age</div>
+      </div>
+      <div class="row">
+        
+        <div class="cell">1</div>
+        <div class="cell cell5">john doe</div>
+        <div class="cell">30</div>
+      </div>
+      <div class="row">
+        <div class="cell">2</div>
+        <div class="cell cell8">jane smith</div>
+        <div class="cell">25</div>
+      </div>
+    </div>
+    
+   
+    </div>
+    <div class="icon">
+     <div>Section 3</div>
+      <img src="OIP (3).jpg" alt="Icon 3">
+     
+    </div>
+  </div>
+  <footer>
+ 
+  <p>footer</p>
+</footer>
+  
+</body>
+</html>
